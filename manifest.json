@@ -1,0 +1,12 @@
+{
+	"manifest_version": 2,
+
+	"name": "Hide-Lichess-ranking",
+	"description": "This extension hides your opponent's ranking",
+	"version": "1.0",
+
+	"content_scripts": [{
+    "matches": ["http://en.lichess.org/*","https://en.lichess.org/*"],
+      "js": ["jquery.js", "injector.js"]
+    }]
+}	
